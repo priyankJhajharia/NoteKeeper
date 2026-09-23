@@ -7,13 +7,15 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.notekeeper.data.local.Note
 import com.example.notekeeper.ui.notes.NoteViewModel
-import androidx.compose.runtime.livedata.observeAsState
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
 @Composable
@@ -24,9 +26,48 @@ fun NoteListScreen(
 ) {
     val notes by viewModel.notes.observeAsState(emptyList())
     var noteToDelete by remember { mutableStateOf<Note?>(null) }
+    var isSearching by remember { mutableStateOf(false) }
+    var searchQuery by remember { mutableStateOf("") }
 
     Scaffold(
-        topBar = { TopAppBar(title = { Text("My Notes") }) },
+        topBar = {
+            TopAppBar(
+                title = {
+                    if (isSearching) {
+                        TextField(
+                            value = searchQuery,
+                            onValueChange = {
+                                searchQuery = it
+                                viewModel.setSearchQuery(it)
+                            },
+                            placeholder = { Text("Search notes...") },
+                            modifier = Modifier.fillMaxWidth(),
+                            colors = TextFieldDefaults.colors(
+                                unfocusedContainerColor = MaterialTheme.colorScheme.surface,
+                                focusedContainerColor = MaterialTheme.colorScheme.surface
+                            )
+                        )
+                    } else {
+                        Text("My Notes")
+                    }
+                },
+                actions = {
+                    if (isSearching) {
+                        IconButton(onClick = {
+                            isSearching = false
+                            searchQuery = ""
+                            viewModel.setSearchQuery("")
+                        }) {
+                            Icon(Icons.Default.Close, contentDescription = "Close search")
+                        }
+                    } else {
+                        IconButton(onClick = { isSearching = true }) {
+                            Icon(Icons.Default.Search, contentDescription = "Search")
+                        }
+                    }
+                }
+            )
+        },
         floatingActionButton = {
             FloatingActionButton(onClick = onAddNoteClick) {
                 Icon(Icons.Default.Add, contentDescription = "Add note")

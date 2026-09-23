@@ -188,11 +188,9 @@ public final class NoteDao_Impl implements NoteDao {
 
   @Override
   public Flow<List<Note>> searchNotes(final String query) {
-    final String _sql = "SELECT * FROM notes_table WHERE title LIKE '%' || ? || '%' OR content LIKE '%' || ? || '%' ORDER BY timestamp DESC";
-    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 2);
+    final String _sql = "SELECT * FROM notes_table WHERE title LIKE '%' || ? || '%' ORDER BY timestamp DESC";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
     int _argIndex = 1;
-    _statement.bindString(_argIndex, query);
-    _argIndex = 2;
     _statement.bindString(_argIndex, query);
     return CoroutinesRoom.createFlow(__db, false, new String[] {"notes_table"}, new Callable<List<Note>>() {
       @Override

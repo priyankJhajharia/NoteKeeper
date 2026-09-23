@@ -9,7 +9,7 @@ interface NoteDao {
     @Query("SELECT * FROM notes_table ORDER BY timestamp DESC")
     fun getAllNotes(): Flow<List<Note>>
 
-    @Query("SELECT * FROM notes_table WHERE title LIKE '%' || :query || '%' OR content LIKE '%' || :query || '%' ORDER BY timestamp DESC")
+    @Query("SELECT * FROM notes_table WHERE title LIKE '%' || :query || '%' ORDER BY timestamp DESC")
     fun searchNotes(query: String): Flow<List<Note>>
 
     @Query("SELECT * FROM notes_table WHERE id = :id")
