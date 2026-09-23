@@ -1,11 +1,15 @@
 [
     {
-        "merged": "com.example.notekeeper.app-debug-78:/layout_activity_main.xml.flat",
-        "source": "com.example.notekeeper.app-main-80:/layout/activity_main.xml"
+        "merged": "com.example.notekeeper.app-debug-78:/drawable_ic_note_empty.xml.flat",
+        "source": "com.example.notekeeper.app-main-80:/drawable/ic_note_empty.xml"
     },
     {
-        "merged": "com.example.notekeeper.app-debug-78:/layout_fragment_notes.xml.flat",
-        "source": "com.example.notekeeper.app-main-80:/layout/fragment_notes.xml"
+        "merged": "com.example.notekeeper.app-debug-78:/anim_slide_in_right.xml.flat",
+        "source": "com.example.notekeeper.app-main-80:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.example.notekeeper.app-debug-78:/drawable_ic_add.xml.flat",
+        "source": "com.example.notekeeper.app-main-80:/drawable/ic_add.xml"
     },
     {
         "merged": "com.example.notekeeper.app-debug-78:/anim_slide_out_left.xml.flat",
@@ -26,34 +30,6 @@
     {
         "merged": "com.example.notekeeper.app-debug-78:/drawable_ic_search.xml.flat",
         "source": "com.example.notekeeper.app-main-80:/drawable/ic_search.xml"
-    },
-    {
-        "merged": "com.example.notekeeper.app-debug-78:/menu_menu_add_edit_note.xml.flat",
-        "source": "com.example.notekeeper.app-main-80:/menu/menu_add_edit_note.xml"
-    },
-    {
-        "merged": "com.example.notekeeper.app-debug-78:/navigation_nav_graph.xml.flat",
-        "source": "com.example.notekeeper.app-main-80:/navigation/nav_graph.xml"
-    },
-    {
-        "merged": "com.example.notekeeper.app-debug-78:/drawable_ic_note_empty.xml.flat",
-        "source": "com.example.notekeeper.app-main-80:/drawable/ic_note_empty.xml"
-    },
-    {
-        "merged": "com.example.notekeeper.app-debug-78:/anim_slide_in_right.xml.flat",
-        "source": "com.example.notekeeper.app-main-80:/anim/slide_in_right.xml"
-    },
-    {
-        "merged": "com.example.notekeeper.app-debug-78:/drawable_ic_add.xml.flat",
-        "source": "com.example.notekeeper.app-main-80:/drawable/ic_add.xml"
-    },
-    {
-        "merged": "com.example.notekeeper.app-debug-78:/menu_menu_notes.xml.flat",
-        "source": "com.example.notekeeper.app-main-80:/menu/menu_notes.xml"
-    },
-    {
-        "merged": "com.example.notekeeper.app-debug-78:/layout_fragment_add_edit_note.xml.flat",
-        "source": "com.example.notekeeper.app-main-80:/layout/fragment_add_edit_note.xml"
     },
     {
         "merged": "com.example.notekeeper.app-debug-78:/drawable_ic_save.xml.flat",

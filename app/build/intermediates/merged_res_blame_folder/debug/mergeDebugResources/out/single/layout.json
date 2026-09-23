@@ -1,17 +1,5 @@
 [
     {
-        "merged": "com.example.notekeeper.app-mergeDebugResources-77:/layout/fragment_notes.xml",
-        "source": "com.example.notekeeper.app-main-80:/layout/fragment_notes.xml"
-    },
-    {
-        "merged": "com.example.notekeeper.app-mergeDebugResources-77:/layout/fragment_add_edit_note.xml",
-        "source": "com.example.notekeeper.app-main-80:/layout/fragment_add_edit_note.xml"
-    },
-    {
-        "merged": "com.example.notekeeper.app-mergeDebugResources-77:/layout/activity_main.xml",
-        "source": "com.example.notekeeper.app-main-80:/layout/activity_main.xml"
-    },
-    {
         "merged": "com.example.notekeeper.app-mergeDebugResources-77:/layout/item_note.xml",
         "source": "com.example.notekeeper.app-main-80:/layout/item_note.xml"
     }
