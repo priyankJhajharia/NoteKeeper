@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-debug-52:\\layout_fragment_add_edit_note.xml.flat",
+        "source": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-main-54:\\layout\\fragment_add_edit_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-debug-52:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-main-54:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-debug-52:\\menu_menu_notes.xml.flat",
+        "source": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-main-54:\\menu\\menu_notes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-debug-52:\\drawable_ic_note_empty.xml.flat",
+        "source": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-main-54:\\drawable\\ic_note_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-debug-52:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-debug-52:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-main-54:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-debug-52:\\layout_item_note.xml.flat",
+        "source": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-main-54:\\layout\\item_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-debug-52:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-main-54:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-debug-52:\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-main-54:\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-debug-52:\\menu_menu_add_edit_note.xml.flat",
+        "source": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-main-54:\\menu\\menu_add_edit_note.xml"
+    },
+    {
+        "merged": "com.example.notekeeper.app-debug-52:/layout_fragment_notes.xml.flat",
+        "source": "com.example.notekeeper.app-main-54:/layout/fragment_notes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-debug-52:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-main-54:\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-debug-52:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-main-54:\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-debug-52:\\layout_fragment_notes.xml.flat",
+        "source": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-main-54:\\layout\\fragment_notes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-debug-52:\\drawable_ic_save.xml.flat",
+        "source": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-main-54:\\drawable\\ic_save.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-debug-52:\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\Priyank\\.gradle\\daemon\\8.9\\com.example.notekeeper.app-main-54:\\anim\\slide_out_right.xml"
+    }
+]
