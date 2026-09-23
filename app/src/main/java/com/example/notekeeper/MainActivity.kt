@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity() {
         navController = navHostFragment.navController
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
+
+        startActivity(android.content.Intent(this, NoteListComposeActivity::class.java))
     }
 
     override fun onSupportNavigateUp(): Boolean {
