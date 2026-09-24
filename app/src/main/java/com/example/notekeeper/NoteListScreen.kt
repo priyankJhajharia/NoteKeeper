@@ -16,13 +16,16 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.notekeeper.data.local.Note
 import com.example.notekeeper.ui.notes.NoteViewModel
+import androidx.compose.material.icons.filled.ExitToApp
+import com.google.firebase.auth.FirebaseAuth
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
 @Composable
 fun NoteListScreen(
     viewModel: NoteViewModel,
     onAddNoteClick: () -> Unit,
-    onNoteClick: (Int) -> Unit
+    onNoteClick: (Int) -> Unit,
+    onLogout: () -> Unit
 ) {
     val notes by viewModel.notes.observeAsState(emptyList())
     var noteToDelete by remember { mutableStateOf<Note?>(null) }
@@ -63,6 +66,13 @@ fun NoteListScreen(
                     } else {
                         IconButton(onClick = { isSearching = true }) {
                             Icon(Icons.Default.Search, contentDescription = "Search")
+                        }
+                        IconButton(onClick = {
+                            viewModel.clearLocalNotes()
+                            FirebaseAuth.getInstance().signOut()
+                            onLogout()
+                        }) {
+                            Icon(Icons.Default.ExitToApp, contentDescription = "Logout")
                         }
                     }
                 }

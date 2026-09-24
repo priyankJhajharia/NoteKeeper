@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.notekeeper.app-mergeDebugResources-76:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "com.example.notekeeper.app-mergeDebugResources-79:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Priyank\\.gradle\\caches\\8.9\\transforms\\55ba16d8a4fab034a203b2c2bc4896e3\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\Priyank\\.gradle\\caches\\8.9\\transforms\\ebb862ba98c3a1339eac2dbadf292dc7\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

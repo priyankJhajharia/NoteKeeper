@@ -15,6 +15,7 @@ import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
 import java.lang.Class;
 import java.lang.Exception;
+import java.lang.Long;
 import java.lang.Object;
 import java.lang.Override;
 import java.lang.String;
@@ -85,16 +86,16 @@ public final class NoteDao_Impl implements NoteDao {
   }
 
   @Override
-  public Object insertNote(final Note note, final Continuation<? super Unit> $completion) {
-    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
+  public Object insertNote(final Note note, final Continuation<? super Long> $completion) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Long>() {
       @Override
       @NonNull
-      public Unit call() throws Exception {
+      public Long call() throws Exception {
         __db.beginTransaction();
         try {
-          __insertionAdapterOfNote.insert(note);
+          final Long _result = __insertionAdapterOfNote.insertAndReturnId(note);
           __db.setTransactionSuccessful();
-          return Unit.INSTANCE;
+          return _result;
         } finally {
           __db.endTransaction();
         }

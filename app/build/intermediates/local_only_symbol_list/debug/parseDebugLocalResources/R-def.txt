@@ -28,10 +28,16 @@ string delete
 string delete_confirm
 string delete_note
 string edit_note
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string new_note
 string no_notes_yet
 string note_saved
 string note_updated
+string project_id
 string save
 string search
 string search_hint

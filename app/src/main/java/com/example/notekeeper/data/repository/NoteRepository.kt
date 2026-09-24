@@ -12,9 +12,11 @@ class NoteRepository(private val noteDao: NoteDao) {
 
     suspend fun getNoteById(id: Int): Note? = noteDao.getNoteById(id)
 
-    suspend fun insertNote(note: Note) = noteDao.insertNote(note)
+    suspend fun insertNote(note: Note): Long = noteDao.insertNote(note)
 
     suspend fun updateNote(note: Note) = noteDao.updateNote(note)
 
     suspend fun deleteNoteById(id: Int) = noteDao.deleteNoteById(id)
+
+    suspend fun deleteAllNotes() = noteDao.deleteAllNotes()
 }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "910115173755",
+    "project_id": "notekeeper-461ca",
+    "storage_bucket": "notekeeper-461ca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910115173755:android:1a40c453213255d6f3f9de",
+        "android_client_info": {
+          "package_name": "com.example.notekeeper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-eSIFmdrbmgLS3rP50hWc_BS_qAHAn7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

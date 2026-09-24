@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.notekeeper.app-mergeDebugResources-76:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.example.notekeeper.app-mergeDebugResources-79:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Priyank\\.gradle\\caches\\8.9\\transforms\\99cb8dada7d91ac4445901e5b937bd01\\transformed\\material-1.11.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\Priyank\\.gradle\\caches\\8.9\\transforms\\237d26afe80d662d1f3e517cd85ea7ad\\transformed\\material-1.11.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
