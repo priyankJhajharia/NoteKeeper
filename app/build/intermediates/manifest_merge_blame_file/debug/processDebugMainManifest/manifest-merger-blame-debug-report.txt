@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Priyank\.gradle\caches\8.9\transforms\747447dd6ab1fe6b5f5176f822290547\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
-11-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Priyank\.gradle\caches\8.9\transforms\747447dd6ab1fe6b5f5176f822290547\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:25:22-64
+11-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:3:5-67
+11-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:3:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 12-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Priyank\.gradle\caches\8.9\transforms\747447dd6ab1fe6b5f5176f822290547\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
 12-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Priyank\.gradle\caches\8.9\transforms\747447dd6ab1fe6b5f5176f822290547\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:26:22-76
@@ -30,41 +30,41 @@
 19-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Priyank\.gradle\caches\8.9\transforms\09ac4182d393ef927fda4a13d9db73f3\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:9:22-95
 20
 21    <application
-21-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:4:5-22:19
+21-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:5:5-23:19
 22        android:name="com.example.notekeeper.NoteKeeperApplication"
-22-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:5:9-46
+22-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:6:9-46
 23        android:allowBackup="false"
-23-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:6:9-36
+23-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:7:9-36
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 24-->[androidx.core:core:1.13.1] C:\Users\Priyank\.gradle\caches\8.9\transforms\9e27dc7b26bf6103a863a4d1cc974799\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 25        android:debuggable="true"
 26        android:extractNativeLibs="false"
 27        android:icon="@android:drawable/sym_def_app_icon"
-27-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:7:9-58
+27-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:8:9-58
 28        android:label="@string/app_name"
-28-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:9:9-41
+28-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:10:9-41
 29        android:roundIcon="@android:drawable/sym_def_app_icon"
-29-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:8:9-63
+29-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:9:9-63
 30        android:supportsRtl="true"
-30-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:10:9-35
+30-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:11:9-35
 31        android:testOnly="true"
 32        android:theme="@style/Theme.NoteKeeper" >
-32-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:11:9-48
+32-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:12:9-48
 33        <activity
-33-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:13:9-20:20
+33-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:14:9-21:20
 34            android:name="com.example.notekeeper.NoteListComposeActivity"
-34-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:14:13-52
+34-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:15:13-52
 35            android:exported="true" >
-35-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:15:13-36
+35-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:16:13-36
 36            <intent-filter>
-36-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:16:13-19:29
+36-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:17:13-20:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:17:17-69
-37-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:17:25-66
+37-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:18:17-69
+37-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:18:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:18:17-77
-39-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:18:27-74
+39-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:19:17-77
+39-->D:\NoteKeeper\app\src\main\AndroidManifest.xml:19:27-74
 40            </intent-filter>
 41        </activity>
 42

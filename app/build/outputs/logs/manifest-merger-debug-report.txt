@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Priyank\.gradle\caches\8.9\transforms\237d26afe80d662d1f3e517cd85ea7ad\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Priyank\.gradle\caches\8.9\transforms\b7328f1f591541e4b845d15e690e6006\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Priyank\.gradle\caches\8.9\transforms\45f00129a20052f4c324317f0f158d8f\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -122,9 +122,19 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Priyank\.gradle
 		INJECTED from D:\NoteKeeper\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:3:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Priyank\.gradle\caches\8.9\transforms\747447dd6ab1fe6b5f5176f822290547\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Priyank\.gradle\caches\8.9\transforms\747447dd6ab1fe6b5f5176f822290547\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Priyank\.gradle\caches\8.9\transforms\3f74dfb031f2b7dbc0631a7ecd3ab4c8\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Priyank\.gradle\caches\8.9\transforms\3f74dfb031f2b7dbc0631a7ecd3ab4c8\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Priyank\.gradle\caches\8.9\transforms\09ac4182d393ef927fda4a13d9db73f3\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Priyank\.gradle\caches\8.9\transforms\09ac4182d393ef927fda4a13d9db73f3\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:3:22-64
 application
-ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:4:5-22:19
-INJECTED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:4:5-22:19
+ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:5:5-23:19
+INJECTED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Priyank\.gradle\caches\8.9\transforms\237d26afe80d662d1f3e517cd85ea7ad\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Priyank\.gradle\caches\8.9\transforms\237d26afe80d662d1f3e517cd85ea7ad\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Priyank\.gradle\caches\8.9\transforms\b7328f1f591541e4b845d15e690e6006\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -182,35 +192,35 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Priyank\.gradle
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\Priyank\.gradle\caches\8.9\transforms\9e27dc7b26bf6103a863a4d1cc974799\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:8:9-63
+		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:9:9-63
 	android:icon
-		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:7:9-58
+		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:8:9-58
 	android:allowBackup
-		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:6:9-36
+		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:7:9-36
 	android:theme
-		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:11:9-48
+		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:12:9-48
 	android:name
-		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:5:9-46
+		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:6:9-46
 activity#com.example.notekeeper.NoteListComposeActivity
-ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:13:9-20:20
+ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:14:9-21:20
 	android:exported
-		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:15:13-36
+		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:14:13-52
+		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:15:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:16:13-19:29
+ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:17:13-20:29
 action#android.intent.action.MAIN
-ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from D:\NoteKeeper\app\src\main\AndroidManifest.xml:19:27-74
 uses-sdk
 INJECTED from D:\NoteKeeper\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\NoteKeeper\app\src\main\AndroidManifest.xml
@@ -467,14 +477,6 @@ ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Priyank\.grad
 		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Priyank\.gradle\caches\8.9\transforms\0ba679d10df4a234eb2a91255b941545\transformed\jetified-firebase-auth-ktx-23.1.0\AndroidManifest.xml:13:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Priyank\.gradle\caches\8.9\transforms\0ba679d10df4a234eb2a91255b941545\transformed\jetified-firebase-auth-ktx-23.1.0\AndroidManifest.xml:12:17-119
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Priyank\.gradle\caches\8.9\transforms\747447dd6ab1fe6b5f5176f822290547\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
-MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Priyank\.gradle\caches\8.9\transforms\3f74dfb031f2b7dbc0631a7ecd3ab4c8\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Priyank\.gradle\caches\8.9\transforms\3f74dfb031f2b7dbc0631a7ecd3ab4c8\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Priyank\.gradle\caches\8.9\transforms\09ac4182d393ef927fda4a13d9db73f3\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:7:5-67
-MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Priyank\.gradle\caches\8.9\transforms\09ac4182d393ef927fda4a13d9db73f3\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:7:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Priyank\.gradle\caches\8.9\transforms\747447dd6ab1fe6b5f5176f822290547\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:25:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Priyank\.gradle\caches\8.9\transforms\747447dd6ab1fe6b5f5176f822290547\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Priyank\.gradle\caches\8.9\transforms\3f74dfb031f2b7dbc0631a7ecd3ab4c8\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79

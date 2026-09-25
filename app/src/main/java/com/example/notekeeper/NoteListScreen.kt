@@ -18,6 +18,10 @@ import com.example.notekeeper.data.local.Note
 import com.example.notekeeper.ui.notes.NoteViewModel
 import androidx.compose.material.icons.filled.ExitToApp
 import com.google.firebase.auth.FirebaseAuth
+import androidx.compose.runtime.LaunchedEffect
+import kotlinx.coroutines.launch
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.text.style.TextAlign
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
 @Composable
@@ -31,6 +35,19 @@ fun NoteListScreen(
     var noteToDelete by remember { mutableStateOf<Note?>(null) }
     var isSearching by remember { mutableStateOf(false) }
     var searchQuery by remember { mutableStateOf("") }
+
+    var quote by remember { mutableStateOf<Quote?>(null) }
+
+    LaunchedEffect(notes) {
+        if (notes.isEmpty() && quote == null) {
+            try {
+                val quotes = QuoteApiService.create().getRandomQuote()
+                quote = quotes.firstOrNull()
+            } catch (e: Exception) {
+                // Silently ignore - quote is just a nice-to-have, not critical
+            }
+        }
+    }
 
     Scaffold(
         topBar = {
@@ -84,13 +101,41 @@ fun NoteListScreen(
             }
         }
     ) { padding ->
-        LazyColumn(modifier = Modifier.padding(padding).fillMaxSize()) {
-            items(notes) { note ->
-                NoteItem(
-                    note = note,
-                    onClick = { onNoteClick(note.id) },
-                    onLongClick = { noteToDelete = note }
-                )
+        if (notes.isEmpty()) {
+            Box(
+                modifier = Modifier
+                    .padding(padding)
+                    .fillMaxSize()
+                    .padding(32.dp),
+                contentAlignment = Alignment.Center
+            ) {
+                if (quote != null) {
+                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                        Text(
+                            text = "\"${quote!!.q}\"",
+                            style = MaterialTheme.typography.bodyLarge,
+                            textAlign = TextAlign.Center
+                        )
+                        Spacer(modifier = Modifier.height(8.dp))
+                        Text(
+                            text = "— ${quote!!.a}",
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                } else {
+                    Text("No notes yet. Tap + to create one.")
+                }
+            }
+        } else {
+            LazyColumn(modifier = Modifier.padding(padding).fillMaxSize()) {
+                items(notes) { note ->
+                    NoteItem(
+                        note = note,
+                        onClick = { onNoteClick(note.id) },
+                        onLongClick = { noteToDelete = note }
+                    )
+                }
             }
         }
     }

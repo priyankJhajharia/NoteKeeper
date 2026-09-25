@@ -40,6 +40,8 @@ public final class NoteDao_Impl implements NoteDao {
 
   private final SharedSQLiteStatement __preparedStmtOfDeleteNoteById;
 
+  private final SharedSQLiteStatement __preparedStmtOfDeleteAllNotes;
+
   public NoteDao_Impl(@NonNull final RoomDatabase __db) {
     this.__db = __db;
     this.__insertionAdapterOfNote = new EntityInsertionAdapter<Note>(__db) {
@@ -80,6 +82,14 @@ public final class NoteDao_Impl implements NoteDao {
       @NonNull
       public String createQuery() {
         final String _query = "DELETE FROM notes_table WHERE id = ?";
+        return _query;
+      }
+    };
+    this.__preparedStmtOfDeleteAllNotes = new SharedSQLiteStatement(__db) {
+      @Override
+      @NonNull
+      public String createQuery() {
+        final String _query = "DELETE FROM notes_table";
         return _query;
       }
     };
@@ -141,6 +151,29 @@ public final class NoteDao_Impl implements NoteDao {
           }
         } finally {
           __preparedStmtOfDeleteNoteById.release(_stmt);
+        }
+      }
+    }, $completion);
+  }
+
+  @Override
+  public Object deleteAllNotes(final Continuation<? super Unit> $completion) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
+      @Override
+      @NonNull
+      public Unit call() throws Exception {
+        final SupportSQLiteStatement _stmt = __preparedStmtOfDeleteAllNotes.acquire();
+        try {
+          __db.beginTransaction();
+          try {
+            _stmt.executeUpdateDelete();
+            __db.setTransactionSuccessful();
+            return Unit.INSTANCE;
+          } finally {
+            __db.endTransaction();
+          }
+        } finally {
+          __preparedStmtOfDeleteAllNotes.release(_stmt);
         }
       }
     }, $completion);
