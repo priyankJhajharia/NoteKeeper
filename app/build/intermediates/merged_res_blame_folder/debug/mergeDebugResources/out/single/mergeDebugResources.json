@@ -1,38 +1,38 @@
 [
     {
-        "merged": "com.example.notekeeper.app-debug-81:/drawable_ic_search.xml.flat",
-        "source": "com.example.notekeeper.app-main-83:/drawable/ic_search.xml"
+        "merged": "com.example.notekeeper.app-debug-82:/drawable_ic_note_empty.xml.flat",
+        "source": "com.example.notekeeper.app-main-84:/drawable/ic_note_empty.xml"
     },
     {
-        "merged": "com.example.notekeeper.app-debug-81:/anim_slide_out_left.xml.flat",
-        "source": "com.example.notekeeper.app-main-83:/anim/slide_out_left.xml"
+        "merged": "com.example.notekeeper.app-debug-82:/drawable_ic_add.xml.flat",
+        "source": "com.example.notekeeper.app-main-84:/drawable/ic_add.xml"
     },
     {
-        "merged": "com.example.notekeeper.app-debug-81:/layout_item_note.xml.flat",
-        "source": "com.example.notekeeper.app-main-83:/layout/item_note.xml"
+        "merged": "com.example.notekeeper.app-debug-82:/layout_item_note.xml.flat",
+        "source": "com.example.notekeeper.app-main-84:/layout/item_note.xml"
     },
     {
-        "merged": "com.example.notekeeper.app-debug-81:/drawable_ic_save.xml.flat",
-        "source": "com.example.notekeeper.app-main-83:/drawable/ic_save.xml"
+        "merged": "com.example.notekeeper.app-debug-82:/drawable_ic_save.xml.flat",
+        "source": "com.example.notekeeper.app-main-84:/drawable/ic_save.xml"
     },
     {
-        "merged": "com.example.notekeeper.app-debug-81:/drawable_ic_add.xml.flat",
-        "source": "com.example.notekeeper.app-main-83:/drawable/ic_add.xml"
+        "merged": "com.example.notekeeper.app-debug-82:/anim_slide_out_left.xml.flat",
+        "source": "com.example.notekeeper.app-main-84:/anim/slide_out_left.xml"
     },
     {
-        "merged": "com.example.notekeeper.app-debug-81:/anim_slide_in_left.xml.flat",
-        "source": "com.example.notekeeper.app-main-83:/anim/slide_in_left.xml"
+        "merged": "com.example.notekeeper.app-debug-82:/drawable_ic_search.xml.flat",
+        "source": "com.example.notekeeper.app-main-84:/drawable/ic_search.xml"
     },
     {
-        "merged": "com.example.notekeeper.app-debug-81:/anim_slide_out_right.xml.flat",
-        "source": "com.example.notekeeper.app-main-83:/anim/slide_out_right.xml"
+        "merged": "com.example.notekeeper.app-debug-82:/anim_slide_in_left.xml.flat",
+        "source": "com.example.notekeeper.app-main-84:/anim/slide_in_left.xml"
     },
     {
-        "merged": "com.example.notekeeper.app-debug-81:/anim_slide_in_right.xml.flat",
-        "source": "com.example.notekeeper.app-main-83:/anim/slide_in_right.xml"
+        "merged": "com.example.notekeeper.app-debug-82:/anim_slide_out_right.xml.flat",
+        "source": "com.example.notekeeper.app-main-84:/anim/slide_out_right.xml"
     },
     {
-        "merged": "com.example.notekeeper.app-debug-81:/drawable_ic_note_empty.xml.flat",
-        "source": "com.example.notekeeper.app-main-83:/drawable/ic_note_empty.xml"
+        "merged": "com.example.notekeeper.app-debug-82:/anim_slide_in_right.xml.flat",
+        "source": "com.example.notekeeper.app-main-84:/anim/slide_in_right.xml"
     }
 ]

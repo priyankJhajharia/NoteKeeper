@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.notekeeper.app-mergeDebugResources-79:/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "com.example.notekeeper.app-mergeDebugResources-80:/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Priyank\\.gradle\\caches\\8.9\\transforms\\51569ced799f7128ef738ae0ab3eedba\\transformed\\jetified-foundation-release\\res\\values-en-rGB\\values-en-rGB.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.notekeeper.app-mergeDebugResources-79:/values-bs/values-bs.xml",
+            "outputFile": "com.example.notekeeper.app-mergeDebugResources-80:/values-bs/values-bs.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Priyank\\.gradle\\caches\\8.9\\transforms\\de62519e487e5048d4b48638e5d1de73\\transformed\\jetified-play-services-basement-18.4.0\\res\\values-bs\\values.xml",

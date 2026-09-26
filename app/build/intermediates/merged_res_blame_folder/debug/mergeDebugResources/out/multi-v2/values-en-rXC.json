@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.notekeeper.app-mergeDebugResources-79:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.example.notekeeper.app-mergeDebugResources-80:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Priyank\\.gradle\\caches\\8.9\\transforms\\0d11ca0326d8123e103d2edae0ea1245\\transformed\\browser-1.4.0\\res\\values-en-rXC\\values-en-rXC.xml",

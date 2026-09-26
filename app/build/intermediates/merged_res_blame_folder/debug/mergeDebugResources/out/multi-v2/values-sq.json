@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.notekeeper.app-mergeDebugResources-79:/values-sq/values-sq.xml",
+            "outputFile": "com.example.notekeeper.app-mergeDebugResources-80:/values-sq/values-sq.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Priyank\\.gradle\\caches\\8.9\\transforms\\1c2611b1fa4c56c7e970c3dfa854b95b\\transformed\\jetified-play-services-base-18.0.1\\res\\values-sq\\values.xml",

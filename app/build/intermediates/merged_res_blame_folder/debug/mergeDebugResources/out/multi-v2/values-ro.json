@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.notekeeper.app-mergeDebugResources-79:/values-ro/values-ro.xml",
+            "outputFile": "com.example.notekeeper.app-mergeDebugResources-80:/values-ro/values-ro.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Priyank\\.gradle\\caches\\8.9\\transforms\\9280592ff22e51b4fbf422a02248232a\\transformed\\jetified-ui-release\\res\\values-ro\\values-ro.xml",

@@ -22,7 +22,6 @@ fun AddEditNoteScreen(
     var content by remember { mutableStateOf("") }
     val isEditing = noteId != -1
 
-    // Load existing note if editing
     LaunchedEffect(noteId) {
         if (isEditing) {
             val existingNote = viewModel.getNoteById(noteId)
@@ -48,25 +47,33 @@ fun AddEditNoteScreen(
         Column(
             modifier = Modifier
                 .padding(padding)
-                .padding(16.dp)
+                .padding(horizontal = 20.dp, vertical = 16.dp)
                 .fillMaxSize()
         ) {
             OutlinedTextField(
                 value = title,
                 onValueChange = { title = it },
                 label = { Text("Title") },
-                modifier = Modifier.fillMaxWidth()
+                modifier = Modifier.fillMaxWidth(),
+                colors = OutlinedTextFieldDefaults.colors(
+                    focusedTextColor = MaterialTheme.colorScheme.onSurface,
+                    unfocusedTextColor = MaterialTheme.colorScheme.onSurface
+                )
             )
-            Spacer(modifier = Modifier.height(12.dp))
+            Spacer(modifier = Modifier.height(16.dp))
             OutlinedTextField(
                 value = content,
                 onValueChange = { content = it },
                 label = { Text("Content") },
                 modifier = Modifier
                     .fillMaxWidth()
-                    .weight(1f)
+                    .weight(1f),
+                colors = OutlinedTextFieldDefaults.colors(
+                    focusedTextColor = MaterialTheme.colorScheme.onSurface,
+                    unfocusedTextColor = MaterialTheme.colorScheme.onSurface
+                )
             )
-            Spacer(modifier = Modifier.height(12.dp))
+            Spacer(modifier = Modifier.height(20.dp))
             Button(
                 onClick = {
                     if (title.isNotBlank()) {
@@ -78,9 +85,12 @@ fun AddEditNoteScreen(
                         onNoteSaved()
                     }
                 },
-                modifier = Modifier.fillMaxWidth()
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(50.dp),
+                shape = MaterialTheme.shapes.medium
             ) {
-                Text("Save")
+                Text("Save", style = MaterialTheme.typography.titleMedium)
             }
         }
     }

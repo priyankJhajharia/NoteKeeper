@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.notekeeper.app-mergeDebugResources-79:/values-pl/values-pl.xml",
+            "outputFile": "com.example.notekeeper.app-mergeDebugResources-80:/values-pl/values-pl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Priyank\\.gradle\\caches\\8.9\\transforms\\ebb862ba98c3a1339eac2dbadf292dc7\\transformed\\appcompat-1.6.1\\res\\values-pl\\values-pl.xml",

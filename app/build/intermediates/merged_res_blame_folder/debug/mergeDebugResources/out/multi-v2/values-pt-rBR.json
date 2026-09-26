@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.notekeeper.app-mergeDebugResources-79:/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "com.example.notekeeper.app-mergeDebugResources-80:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Priyank\\.gradle\\caches\\8.9\\transforms\\0d11ca0326d8123e103d2edae0ea1245\\transformed\\browser-1.4.0\\res\\values-pt-rBR\\values-pt-rBR.xml",

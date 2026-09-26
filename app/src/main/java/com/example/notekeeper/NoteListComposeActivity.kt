@@ -13,6 +13,8 @@ import androidx.navigation.navArgument
 import com.example.notekeeper.ui.notes.NoteViewModel
 import com.example.notekeeper.ui.notes.NoteViewModelFactory
 import com.google.firebase.auth.FirebaseAuth
+import com.example.notekeeper.ui.theme.NoteKeeperTheme
+import androidx.activity.enableEdgeToEdge
 
 class NoteListComposeActivity : ComponentActivity() {
 
@@ -22,6 +24,7 @@ class NoteListComposeActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
 
         val isLoggedIn = FirebaseAuth.getInstance().currentUser != null
         if (isLoggedIn) {
@@ -29,7 +32,7 @@ class NoteListComposeActivity : ComponentActivity() {
         }
 
         setContent {
-            MaterialTheme {
+            NoteKeeperTheme {
                 val navController = rememberNavController()
                 val startDestination = if (isLoggedIn) "noteList" else "login"
 

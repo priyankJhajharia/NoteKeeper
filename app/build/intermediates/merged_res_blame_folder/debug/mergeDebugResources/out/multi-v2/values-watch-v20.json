@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.notekeeper.app-mergeDebugResources-79:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.example.notekeeper.app-mergeDebugResources-80:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Priyank\\.gradle\\caches\\8.9\\transforms\\a8a3d1a57c6eb86e88a692626836e7f0\\transformed\\jetified-play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
