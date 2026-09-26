@@ -1,3 +1,7 @@
+## Download
+
+[Download the latest APK](https://github.com/priyankJhajharia/NoteKeeper/releases/latest)
+
 # NoteKeeper 📝
 
 A modern Android notes app built entirely in Jetpack Compose, with Firebase cloud sync and REST API integration.
